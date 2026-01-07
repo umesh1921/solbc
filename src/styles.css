@@ -1,0 +1,51 @@
+body {
+  font-family: Inter, Arial, sans-serif;
+  margin: 0;
+  padding: 1rem;
+  background: #f7f7fb;
+  color: #111;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 18px rgba(15, 23, 42, 0.06);
+}
+
+.field {
+  margin-bottom: 0.75rem;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+input[type="text"], input[type="number"] {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  border: none;
+  background: #0066ff;
+  color: white;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background: #f1f5f9;
+  border-radius: 6px;
+  font-family: monospace;
+  word-break: break-all;
+}
